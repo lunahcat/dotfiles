@@ -15,3 +15,5 @@ opt.smartindent = true
 opt.smarttab = true
 opt.tabstop = 2
 opt.title = true
+opt.fillchars:append { eob = " " }
+

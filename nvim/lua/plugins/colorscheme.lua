@@ -1,6 +1,7 @@
 return {
-  "sainnhe/everforest",
+  "rose-pine/neovim",
   config = function()
-    vim.cmd("colorscheme everforest")
+    vim.cmd("colorscheme rose-pine")
   end
 }
+
