@@ -10,4 +10,3 @@ keymap.set("n", "<A-k>", ":m .-2<CR>==")
 
 keymap.set("n", "<C-h>", "<C-w>h>")
 keymap.set("n", "<C-l>", "<C-w>l>")
-
