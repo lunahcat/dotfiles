@@ -5,5 +5,6 @@ return {
 			flavour = "mocha",
 		})
 		vim.cmd.colorscheme("catppuccin")
+		vim.cmd("highlight Normal ctermbg=NONE guibg=NONE")
 	end,
 }

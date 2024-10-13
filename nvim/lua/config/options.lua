@@ -15,5 +15,3 @@ opt.smartindent = true
 opt.smarttab = true
 opt.tabstop = 2
 opt.title = true
-
-vim.cmd("highlight Normal ctermbg=NONE guibg=NONE")
