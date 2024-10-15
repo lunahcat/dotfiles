@@ -6,7 +6,11 @@ return {
 			animation = false,
 		},
 		config = function()
-			require("nvim-tree").setup()
+			require("nvim-tree").setup({
+				filters = {
+					custom = { "^\\._" },
+				},
+			})
 			vim.keymap.set("n", "<C-j>", "<Cmd>NvimTreeToggle<CR>")
 		end,
 	},
