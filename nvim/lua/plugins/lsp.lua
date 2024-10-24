@@ -15,6 +15,7 @@ return {
 					"pylsp",
 					"ts_ls",
 					"html",
+          "cssls",
 					"jsonls",
 				},
 			})
