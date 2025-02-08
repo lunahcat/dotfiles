@@ -4,7 +4,7 @@ return {
 		config = function()
 			require("nvim-tree").setup()
 			vim.keymap.set("n", "<C-j>", "<Cmd>NvimTreeToggle<CR>")
-		end
+		end,
 	},
 	"nvim-tree/nvim-web-devicons",
 	"romgrk/barbar.nvim",
