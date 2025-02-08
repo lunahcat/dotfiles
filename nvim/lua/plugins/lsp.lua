@@ -8,6 +8,17 @@ return {
 	{
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
+			require("mason-lspconfig").setup({
+				ensure_installed = {
+					"lua_ls",
+					"ts_ls",
+					"html",
+					"cssls",
+					"jsonls",
+					"pyright"
+				}
+			})
+
 			require("mason-lspconfig").setup_handlers({
 				function(server)
 					require("lspconfig")[server].setup({
