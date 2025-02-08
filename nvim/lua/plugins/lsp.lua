@@ -15,8 +15,8 @@ return {
 					"html",
 					"cssls",
 					"jsonls",
-					"pyright"
-				}
+					"pyright",
+				},
 			})
 
 			require("mason-lspconfig").setup_handlers({
