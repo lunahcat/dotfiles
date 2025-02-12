@@ -16,6 +16,7 @@ return {
 					"cssls",
 					"jsonls",
 					"pyright",
+					"rust_analyzer",
 				},
 			})
 
